@@ -12,36 +12,36 @@
   </div>
   <div class="main">
     <p class="add-item">
-      <label class="add-item__title" for="new-task">Add Item</label>
+      <label class="title add-item__title" for="new-task">Add Item</label>
       <div class="add-item__wrapper">
-        <input id="new-task" class="task add-item__input" type="text">
+        <input id="new-task" class="task add-item__input task_input" type="text">
         <button class="btn">Add</button>
       </div>
     </p>
-    <h3 class="todo__title">Todo</h3> <!-- in semantics part add section with class="task" -->
+    <h3 class="title todo__title">Todo</h3> <!-- in semantics part add section with class="task" -->
     <ul class="todo__list" id="incomplete-tasks">
-      <li class="todo__item">
-        <input class="todo__checkbox checkbox" type="checkbox"><label class="task todo__label">Pay Bills</label>
-        <input class="task todo__input" type="text">
-        <button class="btn_edit">Edit</button>
-        <button class="btn_delete"><img class="btn__img" src="./remove.svg"></button>
+      <li class="item todo__item">
+        <input class="todo__checkbox checkbox" type="checkbox"><label class="task task_label todo__label">Pay Bills</label>
+        <input class="task todo__input task_input" type="text">
+        <button class="btn btn_edit">Edit</button>
+        <button class="btn btn_delete"><img class="btn__img" src="./remove.svg"></button>
       </li>
-      <li class="editable todo__item">
+      <li class="item editable todo__item">
         <input class="todo__checkbox checkbox" type="checkbox">
-        <label class="task todo__label">Go Shopping</label>
-        <input class="task todo__input" type="text" value="Go Shopping">
-        <button class="btn_edit">Save</button>
-        <button class="btn_delete"><img class="btn__img" src="./remove.svg"></button>
+        <label class="task task_label todo__label">Go Shopping</label>
+        <input class="task todo__input task_input" type="text" value="Go Shopping">
+        <button class="btn btn_edit">Save</button>
+        <button class="btn btn_delete"><img class="btn__img" src="./remove.svg"></button>
       </li>
     </ul>
-    <h3 class="completed__title">Completed</h3> <!-- in semantics part add section with class="completed" -->
+    <h3 class="title completed__title">Completed</h3> <!-- in semantics part add section with class="completed" -->
     <ul class="completed__list" id="completed-tasks">
-      <li class="completed__item">
+      <li class="item completed__item">
         <input class="completed__checkbox checkbox" type="checkbox" checked>
-        <label class="task completed__label">See the Doctor</label>
-        <input class="task completed__input" type="text">
-        <button class="btn_edit completed__btn">Edit</button>
-        <button class="btn_delete"><img class="btn__img" src="./remove.svg"></button>
+        <label class="task task_label completed__label">See the Doctor</label>
+        <input class="task completed__input task_input" type="text">
+        <button class="btn btn_edit completed__btn">Edit</button>
+        <button class="btn btn_delete"><img class="btn__img" src="./remove.svg"></button>
       </li>
     </ul>
   </div>
