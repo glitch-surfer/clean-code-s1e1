@@ -4,46 +4,58 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 ul {
   margin:0;
   padding: 0px;
 }
+
 li {
   list-style:none;
 }
+
 input,button{
   outline:none;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header__img {
   width: 100%;
 }
+
 .header .header__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.header { text-align: center;
+
+  .header { text-align: center;
+  }
+
 }
-}
+
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .add-item__wrapper {
   display: flex;
 }
+
 .btn {
   background: none;
   border: 0px;
@@ -53,10 +65,13 @@ input,button{
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .btn:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
+
 .title {
   color: #333;
   font-weight: 700;
@@ -66,6 +81,7 @@ input,button{
   margin: 0;
   text-transform: uppercase;
 }
+
 .task_input {
   margin: 0;
   font-size: 18px;
@@ -78,29 +94,33 @@ input,button{
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .task_input:focus {
   color: #333;
 }
 
 /* New Task */
+
 .add-item__title {
   display: block;
   margin: 0 0 20px;
 }
+
 .add-item__input {
   width: 318px;
 }
 
 /* Task list */
+
 .item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .item {
   vertical-align: middle;
 }
@@ -108,31 +128,37 @@ input,button{
 .checkbox {
   margin: 0 10px;
 }
+
 .task_label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .task_input {
   width: 226px
 }
+
 .btn__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .btn__img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
+
 .completed__list .task_label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
+
 .item .task_input {
   display:none
 }
